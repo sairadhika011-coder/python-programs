@@ -1,0 +1,18 @@
+class India():
+    def show_info(self):
+        print("India")
+class Telangana():
+    def language(self):
+        print("TELGU")
+class Andra(Telangana,India):
+    def cm(self):
+        print("chandra")
+
+a=India()
+b=Telangana()
+c=Andra()
+a.show_info()
+b.language()
+c.cm()
+c.language()
+c.show_info()
