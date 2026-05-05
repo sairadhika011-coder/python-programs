@@ -13,7 +13,7 @@ class bvrit():
     msg="we love"
     def set_dim(self,a,b,c):
         self.tot=a*b
-        self.name=d
+        self.name=c
     def show(self):
          print("1 Name:",self.name)
          print("2 marks:",self.tot)
