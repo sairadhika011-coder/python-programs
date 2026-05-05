@@ -1,0 +1,36 @@
+country="India"
+class ace:
+    msg="i hate u"
+    def give_details(self,a,b,d):
+        self.tot=a+b/2
+        self.name="d"
+    def display(self):
+        print("1 Name:",self.name)
+        print("2 marks:",self.tot)
+        print("3 msg:",ace.msg)
+        print("4 country:",country)
+class bvrit():
+    msg="we love"
+    def set_dim(self,a,b,c):
+        self.tot=a*b
+        self.name="d"
+    def show(self):
+         print("1 Name:",self.name)
+         print("2 marks:",self.tot)
+         print("3 msg:",bvrit.msg)
+         print("4 country:",country)
+
+
+
+a=ace()
+b=bvrit()
+a2=ace()
+b2=bvrit()
+a.give_details(40,50,"Ramya")
+a2.give_details(60,70,"sid")
+a.display()
+a2.display()
+b.set_dim(80,90,"m")
+b2.set_dim(81,91,"l")
+b.show()
+b2.show()
